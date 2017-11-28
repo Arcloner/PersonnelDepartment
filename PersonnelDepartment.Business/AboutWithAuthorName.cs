@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonnelDepartment.Business
 {
-    public class AboutWithAuthorName:IAbout
+    public class AboutWithAuthorName : IAbout
     {
         private readonly string AuthorName = "Valery Piniazik";
 

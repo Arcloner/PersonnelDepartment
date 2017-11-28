@@ -18,13 +18,12 @@
 
 namespace PersonnelDepartment.DependencyResolution {
     using StructureMap;
-    using PersonnelDepartmentsClasses;
+    using PersonnelDepartment.Business;
 	
     public static class IoC {
         public static IContainer Initialize() {
             return new Container(c => {
-                c.AddRegistry<DefaultRegistry>();
-                c.For<IAbout>().Use<AboutWithAuthorName>();
+                c.AddRegistry<DefaultRegistry>();                
             });
         }
     }

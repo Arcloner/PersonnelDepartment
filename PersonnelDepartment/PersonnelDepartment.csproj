@@ -173,9 +173,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PersonnelDepartmentsClasses\PersonnelDepartmentsClasses.csproj">
-      <Project>{80fe7f66-d2ce-4533-bf62-04d4434588fc}</Project>
-      <Name>PersonnelDepartmentsClasses</Name>
+    <ProjectReference Include="..\PersonnelDepartment.Business\PersonnelDepartment.Business.csproj">
+      <Project>{3103940d-46f9-47a2-8a2e-0212552990d0}</Project>
+      <Name>PersonnelDepartment.Business</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
